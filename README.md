@@ -6,7 +6,8 @@ The end-to-end workflow covers **data cleaning, EDA, SQL queries, Excel analysis
 
 ---
 
-## 📂 Repository Structure  
+## 📂 Repository Structure
+
 
 ├── 📊 dashboard/ # Power BI dashboards (interactive visuals)
 ├── 📈 excel_analysis/ # Excel cleaning + pivot analysis
@@ -15,6 +16,7 @@ The end-to-end workflow covers **data cleaning, EDA, SQL queries, Excel analysis
 ├── 📂 data/ # Raw and cleaned datasets
 ├── requirements.txt # Python dependencies
 └── README.md # Project documentation
+
 
 yaml
 Copy
@@ -75,7 +77,7 @@ Edit
 
 1. Clone this repository  
    ```bash
-   git clone https://github.com/<your-username>/retail-sales-analysis.git
+   git clone https://github.com/amanpunia005/retail-sales-analysis.git
    cd retail-sales-analysis
 Install requirements
 
@@ -97,7 +99,7 @@ jupyter notebook notebooks/Retail_EDA.ipynb
 
 LinkedIn: www.linkedin.com/in/aman-puniya
 
-GitHub: github.com/amanpunia005
+GitHub: www.github.com/amanpunia005
 
 Email: puniyaaman0@gmail.com
 

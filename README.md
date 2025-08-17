@@ -8,7 +8,6 @@ The end-to-end workflow covers **data cleaning, EDA, SQL queries, Excel analysis
 
 ## 📂 Repository Structure
 
-
 ├── 📊 dashboard/ # Power BI dashboards (interactive visuals)
 ├── 📈 excel_analysis/ # Excel cleaning + pivot analysis
 ├── 📘 notebooks/ # Jupyter notebooks (EDA in Python)

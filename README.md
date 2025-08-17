@@ -1,116 +1,103 @@
-🛍️ Retail Sales EDA & Business Insights
-📌 Project Overview
+# 🛒 Retail Sales Analysis (EDA + SQL + Excel + Power BI)
 
-This project focuses on Exploratory Data Analysis (EDA) of retail sales data to uncover actionable business insights. The analysis helps identify sales trends, customer purchasing behavior, profit margins, and product performance.
+## 📌 Project Overview  
+This project analyzes **Superstore Retail Sales data (~$2.27M in revenue)** to uncover trends, profit drivers, and actionable business insights.  
+The end-to-end workflow covers **data cleaning, EDA, SQL queries, Excel analysis, and an interactive Power BI dashboard.**
 
-The goal is to showcase data cleaning, feature engineering, and visualization skills using Python, SQL, Excel, and Power BI — tools essential for a data analyst role.
+---
 
-🗂️ Repository Structure
-retail-sales-eda/
-│
-├── data/                 # Sample dataset (only small files, original source linked in README)
-├── notebooks/            # Jupyter Notebooks with step-by-step EDA
-├── sql_queries/          # SQL scripts for analysis
-├── excel_analysis/       # Pivot tables, charts & Excel-based insights
-├── dashboard/            # Power BI dashboard files + screenshots
-├── requirements.txt      # Python dependencies
-└── README.md             # Project documentation
+## 📂 Repository Structure  
 
-⚙️ Tech Stack
+├── 📊 dashboard/ # Power BI dashboards (interactive visuals)
+├── 📈 excel_analysis/ # Excel cleaning + pivot analysis
+├── 📘 notebooks/ # Jupyter notebooks (EDA in Python)
+├── 🗄️ sql_queries/ # SQL scripts for business questions
+├── 📂 data/ # Raw and cleaned datasets
+├── requirements.txt # Python dependencies
+└── README.md # Project documentation
 
-Python → pandas, numpy, matplotlib, seaborn
+yaml
+Copy
+Edit
 
-SQL → Business queries for KPIs (joins, aggregations, window functions)
+---
 
-Excel → Pivot tables, sales dashboards, basic analysis
+## ⚙️ Tech Stack  
 
-Power BI → Interactive visual dashboards for decision-making
+- **Languages:** Python (Pandas, NumPy, Matplotlib, Seaborn), SQL  
+- **Tools:** Excel, Power BI, Jupyter Notebook  
+- **Database:** SQLite  
 
-📊 Business Questions Answered
+---
 
-✔️ Which month records the highest and lowest sales?
-✔️ Which regions contribute the most revenue?
-✔️ Who are the top customers by sales volume?
-✔️ Which product categories drive profitability?
-✔️ What is the trend of sales vs. profit margins?
-✔️ How does discounting impact profitability?
+## 🔑 Steps & Workflow  
 
-🔎 Methodology
-Step 1: Data Loading & Exploration
+### 1. Data Cleaning  
+- Removed duplicates, handled nulls, standardized column names.  
+- Created additional features (Profit Margin, Order Month/Year).  
 
-Loaded raw sales data (CSV format)
+### 2. Exploratory Data Analysis (Python)  
+- Analyzed **sales, profit trends, and regional performance.**  
+- Built **visualizations**: sales trends, profit margin analysis, category performance.  
 
-Checked missing values, duplicates, and data consistency
+### 3. SQL Business Queries  
+- Region-wise sales & profit trends  
+- Discount impact on profitability  
+- Category & segment performance  
 
-Step 2: Data Cleaning
+### 4. Excel Analysis  
+- Cleaned raw data and used **pivot tables** for region/category sales.  
+- Created visual summaries for management-level insights.  
 
-Handled missing entries
+### 5. Power BI Dashboard  
+- Interactive dashboard to analyze **$2.27M sales across 4 regions**.  
+- Drilldowns by region, category, and discount strategies.  
 
-Removed duplicates
+---
 
-Converted dates into Order Month, Order Year for trend analysis
+## 📊 Key Insights  
 
-Step 3: Feature Engineering
+- **High Discounts (>20%) → Negative Profit**  
+- **Technology + Consumer Segments → 60%+ of total profit**  
+- **South Region underperforms → Suggests targeted marketing investment**  
 
-Created Profit Margin = Profit / Sales
+---
 
-Extracted Month & Year from date field
+## 🚀 Impact  
 
-Categorized sales into high / medium / low performing segments
+✔️ Delivered a **data-driven roadmap** for pricing & discounting strategies.  
+✔️ Built a **360° view of retail performance** with SQL + Python + Excel + Power BI.  
+✔️ Showcased **end-to-end analytics workflow** for business decision-making.  
 
-Step 4: Exploratory Data Analysis (EDA)
+---
 
-Trend analysis by month & year
+## 📌 How to Run Locally  
 
-Region-wise revenue comparison
+1. Clone this repository  
+   ```bash
+   git clone https://github.com/<your-username>/retail-sales-analysis.git
+   cd retail-sales-analysis
+Install requirements
 
-Customer segmentation
-
-Category-wise profitability
-
-Step 5: Visualization
-
-Matplotlib & Seaborn for heatmaps, bar charts, line plots
-
-Excel pivot charts for business reporting
-
-Power BI dashboard for interactive storytelling
-
-📈 Key Insights
-
-🔹 Sales peak in December due to holiday demand.
-🔹 Technology category contributes maximum revenue, but Office Supplies has higher profit margins.
-🔹 West region is the strongest market, while South underperforms.
-🔹 A small percentage of top customers contribute disproportionately to overall sales (Pareto principle).
-🔹 High discounts increase sales volume but significantly reduce profit margins.
-
-📊 Dashboard Preview
-
-📌 Power BI Dashboard Example:
-
-(For full interactive dashboard, download from /dashboard folder)
-
-🗄️ Dataset
-
-Source: Kaggle Retail Dataset (or specify your actual source)
-
-Rows: ~10,000 transactions
-
-Columns: Customer, Product, Category, Region, Sales, Quantity, Profit, Discount, Date
-
-🚀 How to Run Locally
-
-Clone repo
-
-git clone https://github.com/yourusername/retail-sales-eda.git
-cd retail-sales-eda
-
-
-Install dependencies
-
+bash
+Copy
+Edit
 pip install -r requirements.txt
+Open Jupyter Notebook for EDA
 
+bash
+Copy
+Edit
+jupyter notebook notebooks/Retail_EDA.ipynb
+📸 Dashboard Preview
+(Add a screenshot of your Power BI dashboard here to attract hiring managers)
 
-Open Jupyter Notebook
+📧 Contact
+👤 Aman Puniya
 
-jupyter notebook notebooks/retail_sales_eda.ipynb
+LinkedIn: www.linkedin.com/in/aman-puniya
+
+GitHub: github.com/amanpunia005
+
+Email: puniyaaman0@gmail.com
+
